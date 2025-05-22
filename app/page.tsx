@@ -6,6 +6,7 @@ import ProductCard from "@/components/ProductCard";
 import { products } from "@/db/products.json";
 import { about } from "@/db/about.json";
 import AboutSection from "@/components/AboutSection";
+import CarouselSection from "@/components/CarouselSection";
 export default async function Home() {
   return (
     <>
@@ -31,6 +32,7 @@ export default async function Home() {
         </Container>
       </section>
       <AboutSection about={about} />
+      <CarouselSection />
     </>
   );
 }
