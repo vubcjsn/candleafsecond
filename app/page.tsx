@@ -1,3 +1,10 @@
-export default function Home() {
-  return <h1>hello</h1>;
+import Hero from "@/components/Hero";
+import { hero } from "@/db/hero.json";
+
+export default async function Home() {
+  return (
+    <>
+      <Hero hero={hero} />
+    </>
+  );
 }

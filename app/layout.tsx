@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto, Poppins } from "next/font/google";
-import Footer from "@/app/components/Footer";
+import Footer from "@/components/Footer";
 
 const roboto = Roboto({
   weight: ["400", "500", "700"],
@@ -15,7 +15,7 @@ const poppins = Poppins({
 });
 
 import "./globals.css";
-import Header from "@/app/components/Header";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Candle Leaf",
